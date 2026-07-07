@@ -35,6 +35,13 @@ export default function Projects() {
                 "A simple Reddit client app built with React and the Reddit API. Browse subreddits, view posts, and read comments.",
             link: "https://redditappfrontend.netlify.app/",
             codeLink: "https://github.com/Ballchinian/RedditApp"
+        },
+        {
+            title: "Slopfall",
+            description:
+                "Uses an LLM model with vector embeddings to find the mathematical most relevant cards. Peaked at 3.6k requests in 1 hour.",
+            link: "https://mtgscraper.up.railway.app/",
+            codeLink: "https://github.com/Ballchinian/MTGScraper"
         }
     ];
 
