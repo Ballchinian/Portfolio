@@ -39,7 +39,7 @@ export default function Projects() {
         {
             title: "Slopfall",
             description:
-                "Uses an LLM model with vector embeddings to find the mathematical most relevant cards. Peaked at 3.6k requests in 1 hour.",
+                "Uses an LLM model with vector embeddings to find the mathematical most relevant cards. Peaked at 18k requests in 6 hour.",
             link: "https://mtgscraper.up.railway.app/",
             codeLink: "https://github.com/Ballchinian/MTGScraper"
         }
