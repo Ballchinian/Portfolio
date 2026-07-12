@@ -37,9 +37,9 @@ export default function Projects() {
             codeLink: "https://github.com/Ballchinian/RedditApp"
         },
         {
-            title: "Slopfall",
+            title: "Dredgefall",
             description:
-                "Uses an LLM model with vector embeddings to find the mathematical most relevant cards. Peaked at 18k requests in 6 hour.",
+                "uses an LLM to turn every card's rules text into vector embeddings and finds the mathematically closest matches. Peaked at 25k requests in 6 hour.",
             link: "https://mtgscraper.up.railway.app/",
             codeLink: "https://github.com/Ballchinian/MTGScraper"
         }
