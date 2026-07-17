@@ -40,8 +40,8 @@ export default function Projects() {
             title: "Delvefall",
             description:
                 "A web app that finds Magic: The Gathering cards that do similar things to the card you search for. Peaked at 25k requests in 6 hour.",
-            link: "https://mtgscraper.up.railway.app/",
-            codeLink: "https://github.com/Ballchinian/MTGScraper"
+            link: "https://delvefall.com/",
+            codeLink: "https://github.com/Ballchinian/Delvefall"
         }
     ];
 
