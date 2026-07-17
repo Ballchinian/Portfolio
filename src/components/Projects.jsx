@@ -39,7 +39,7 @@ export default function Projects() {
         {
             title: "Delvefall",
             description:
-                "uses an LLM to turn every card's rules text into vector embeddings and finds the mathematically closest matches. Peaked at 25k requests in 6 hour.",
+                "A web app that finds Magic: The Gathering cards that do similar things to the card you search for. Peaked at 25k requests in 6 hour.",
             link: "https://mtgscraper.up.railway.app/",
             codeLink: "https://github.com/Ballchinian/MTGScraper"
         }
