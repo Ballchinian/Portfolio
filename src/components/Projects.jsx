@@ -2,6 +2,14 @@ import { sectionBase, headingBase, cardBaseReverse, linkBase } from "../styles";
 export default function Projects() {
     const projects = [
         {
+            title: "Delvefall",
+            description:
+                "A web app that finds Magic: The Gathering cards that do similar things to the card you search for. Peaked at 25k requests in 6 hour.",
+            link: "https://delvefall.com/",
+            codeLink: "https://github.com/Ballchinian/Delvefall",
+            icon: "/icons/delvefall.png",
+        },
+        {
             title: "TTRPG Calculator",
             description:
                 "Simulates ttrpg combat encounters. Analytical tooling with informative feedback.",
@@ -40,14 +48,6 @@ export default function Projects() {
             link: "https://redditappfrontend.netlify.app/",
             codeLink: "https://github.com/Ballchinian/RedditApp",
             icon: "/icons/reddit-client.png",
-        },
-        {
-            title: "Delvefall",
-            description:
-                "A web app that finds Magic: The Gathering cards that do similar things to the card you search for. Peaked at 25k requests in 6 hour.",
-            link: "https://delvefall.com/",
-            codeLink: "https://github.com/Ballchinian/Delvefall",
-            icon: "/icons/delvefall.png",
         }
     ];
 
