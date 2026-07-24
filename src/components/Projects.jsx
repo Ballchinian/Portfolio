@@ -7,41 +7,47 @@ export default function Projects() {
                 "Simulates ttrpg combat encounters. Analytical tooling with informative feedback.",
             link: "https://ttrpgcalc.netlify.app/",
             codeLink: "https://github.com/Ballchinian/TTRPGCalc",
+            icon: "/icons/ttrpg-calculator.png",
         },
         {
             title: "League Matchmaker",
             description:
                 "Multipurpose matchmaking for LoL unique per discord server. Glicko mmr system, minimum difference partitioning, and fully scalable",
             link: "https://lolmatchmaker.netlify.app",
-            codeLink: "https://github.com/Ballchinian/LoLMatchMaker"
+            codeLink: "https://github.com/Ballchinian/LoLMatchMaker",
+            icon: "/icons/league-matchmaker.png",
         },
         {
             title: "Availability",
             description:
                 "Aggregates availability data from multiple people, offering seamless navigation via web and Discord integrations.",
             link: "https://availabilityspreadsheet.netlify.app/",
-            codeLink: "https://github.com/Ballchinian/Availability"
+            codeLink: "https://github.com/Ballchinian/Availability",
+            icon: "/icons/availability.png",
         },
         {
             title: "E-Commerce",
             description:
                 "Full-stack shopping application with secure authentication, advanced product filtering, search capabilities, and persistent shopping carts.",
             link: "https://e-commercelive.netlify.app/login",
-            codeLink: "https://github.com/Ballchinian/E-Commerce"
+            codeLink: "https://github.com/Ballchinian/E-Commerce",
+            icon: "/icons/e-commerce.png",
         },
         {
             title: "Reddit Client",
             description:
                 "A simple Reddit client app built with React and the Reddit API. Browse subreddits, view posts, and read comments.",
             link: "https://redditappfrontend.netlify.app/",
-            codeLink: "https://github.com/Ballchinian/RedditApp"
+            codeLink: "https://github.com/Ballchinian/RedditApp",
+            icon: "/icons/reddit-client.png",
         },
         {
             title: "Delvefall",
             description:
                 "A web app that finds Magic: The Gathering cards that do similar things to the card you search for. Peaked at 25k requests in 6 hour.",
             link: "https://delvefall.com/",
-            codeLink: "https://github.com/Ballchinian/Delvefall"
+            codeLink: "https://github.com/Ballchinian/Delvefall",
+            icon: "/icons/delvefall.png",
         }
     ];
 
@@ -54,7 +60,18 @@ export default function Projects() {
                     key={i}
                     className={`${cardBaseReverse} min-h-[180px]`}
                 >
-                    <h4 className="text-xl font-bold mb-2">
+                    <h4 className="text-xl font-bold mb-2 flex items-center gap-2">
+                        {project.icon && (
+                            <img
+                                src={project.icon}
+                                alt=""
+                                aria-hidden="true"
+                                loading="lazy"
+                                width="24"
+                                height="24"
+                                className="w-6 h-6 shrink-0 object-contain rounded-sm"
+                            />
+                        )}
                         {project.title}
                     </h4>
 
